@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="D:\flutter_map_draw_route\flutter_map_draw_route\android\app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.3.0"
+    buildFolder="D:\flutter_map_draw_route\flutter_map_draw_route\build\app"
+    bootClassPath="C:\Users\Saravanan\AppData\Local\Android\sdk\platforms\android-34\android.jar;C:\Users\Saravanan\AppData\Local\Android\sdk\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

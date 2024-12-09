@@ -1,0 +1,196 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_map_draw_route"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:2:5-79
+11-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:2:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:3:5-81
+12-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:3:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:4:5-67
+13-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:4:22-64
+14
+15    <permission
+15-->[androidx.core:core:1.13.1] C:\Users\Saravanan\.gradle\caches\transforms-3\74ae3bc26df8873b91d180b6dff21061\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.flutter_map_draw_route.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.13.1] C:\Users\Saravanan\.gradle\caches\transforms-3\74ae3bc26df8873b91d180b6dff21061\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.13.1] C:\Users\Saravanan\.gradle\caches\transforms-3\74ae3bc26df8873b91d180b6dff21061\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.flutter_map_draw_route.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.13.1] C:\Users\Saravanan\.gradle\caches\transforms-3\74ae3bc26df8873b91d180b6dff21061\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.13.1] C:\Users\Saravanan\.gradle\caches\transforms-3\74ae3bc26df8873b91d180b6dff21061\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+20
+21    <application
+22        android:name="android.app.Application"
+22-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:8:9-42
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.13.1] C:\Users\Saravanan\.gradle\caches\transforms-3\74ae3bc26df8873b91d180b6dff21061\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+24        android:icon="@mipmap/ic_launcher"
+24-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="flutter_map_draw_route" >
+25-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:7:9-47
+26        <activity
+26-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:10:9-30:20
+27            android:name="com.example.flutter_map_draw_route.MainActivity"
+27-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:11:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:15:13-163
+29            android:exported="true"
+29-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:12:13-36
+30            android:hardwareAccelerated="true"
+30-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:16:13-47
+31            android:launchMode="singleTop"
+31-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:13:13-43
+32            android:theme="@style/LaunchTheme"
+32-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:14:13-47
+33            android:windowSoftInputMode="adjustResize" >
+33-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:17:13-55
+34
+35            <!--
+36                 Specifies an Android theme to apply to this Activity as soon as
+37                 the Android process has started. This theme is visible to the user
+38                 while the Flutter UI initializes. After that, this theme continues
+39                 to determine the Window background behind the Flutter UI.
+40            -->
+41            <meta-data
+41-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:22:13-25:17
+42                android:name="io.flutter.embedding.android.NormalTheme"
+42-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:23:15-70
+43                android:resource="@style/NormalTheme" />
+43-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:24:15-52
+44
+45            <intent-filter>
+45-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:26:13-29:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:27:17-68
+46-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:27:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:28:17-76
+48-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:28:27-74
+49            </intent-filter>
+50        </activity>
+51        <!--
+52             Don't delete the meta-data below.
+53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+54        -->
+55        <meta-data
+55-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:33:9-35:33
+56            android:name="flutterEmbedding"
+56-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:34:13-44
+57            android:value="2" />
+57-->D:\flutter_map_draw_route\flutter_map_draw_route\android\app\src\main\AndroidManifest.xml:35:13-30
+58
+59        <service
+59-->[:geolocator_android] D:\flutter_map_draw_route\flutter_map_draw_route\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:56
+60            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+60-->[:geolocator_android] D:\flutter_map_draw_route\flutter_map_draw_route\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-77
+61            android:enabled="true"
+61-->[:geolocator_android] D:\flutter_map_draw_route\flutter_map_draw_route\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-35
+62            android:exported="false"
+62-->[:geolocator_android] D:\flutter_map_draw_route\flutter_map_draw_route\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+63            android:foregroundServiceType="location" />
+63-->[:geolocator_android] D:\flutter_map_draw_route\flutter_map_draw_route\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-53
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Saravanan\.gradle\caches\transforms-3\758ed7ca5432c7fd852b91e07618de59\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Saravanan\.gradle\caches\transforms-3\758ed7ca5432c7fd852b91e07618de59\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Saravanan\.gradle\caches\transforms-3\758ed7ca5432c7fd852b91e07618de59\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Saravanan\.gradle\caches\transforms-3\758ed7ca5432c7fd852b91e07618de59\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+69
+70        <meta-data
+70-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Saravanan\.gradle\caches\transforms-3\c1a82bc2f04e94c2f36260c1b440dec5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+71            android:name="com.google.android.gms.version"
+71-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Saravanan\.gradle\caches\transforms-3\c1a82bc2f04e94c2f36260c1b440dec5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+72            android:value="@integer/google_play_services_version" />
+72-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Saravanan\.gradle\caches\transforms-3\c1a82bc2f04e94c2f36260c1b440dec5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+73
+74        <uses-library
+74-->[androidx.window:window:1.2.0] C:\Users\Saravanan\.gradle\caches\transforms-3\0147ab2581d3f55106a8184dc6a21384\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+75            android:name="androidx.window.extensions"
+75-->[androidx.window:window:1.2.0] C:\Users\Saravanan\.gradle\caches\transforms-3\0147ab2581d3f55106a8184dc6a21384\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+76            android:required="false" />
+76-->[androidx.window:window:1.2.0] C:\Users\Saravanan\.gradle\caches\transforms-3\0147ab2581d3f55106a8184dc6a21384\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+77        <uses-library
+77-->[androidx.window:window:1.2.0] C:\Users\Saravanan\.gradle\caches\transforms-3\0147ab2581d3f55106a8184dc6a21384\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+78            android:name="androidx.window.sidecar"
+78-->[androidx.window:window:1.2.0] C:\Users\Saravanan\.gradle\caches\transforms-3\0147ab2581d3f55106a8184dc6a21384\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+79            android:required="false" />
+79-->[androidx.window:window:1.2.0] C:\Users\Saravanan\.gradle\caches\transforms-3\0147ab2581d3f55106a8184dc6a21384\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+80
+81        <provider
+81-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Saravanan\.gradle\caches\transforms-3\ae2f7a30ed1610721c69a6989a10112a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Saravanan\.gradle\caches\transforms-3\ae2f7a30ed1610721c69a6989a10112a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+83            android:authorities="com.example.flutter_map_draw_route.androidx-startup"
+83-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Saravanan\.gradle\caches\transforms-3\ae2f7a30ed1610721c69a6989a10112a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+84            android:exported="false" >
+84-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Saravanan\.gradle\caches\transforms-3\ae2f7a30ed1610721c69a6989a10112a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Saravanan\.gradle\caches\transforms-3\ae2f7a30ed1610721c69a6989a10112a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Saravanan\.gradle\caches\transforms-3\ae2f7a30ed1610721c69a6989a10112a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Saravanan\.gradle\caches\transforms-3\ae2f7a30ed1610721c69a6989a10112a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+90                android:value="androidx.startup" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+91        </provider>
+92
+93        <receiver
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+94            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+95            android:directBootAware="false"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+96            android:enabled="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+97            android:exported="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+98            android:permission="android.permission.DUMP" >
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+100                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+103                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+106                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+109                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Saravanan\.gradle\caches\transforms-3\5885e41419d445e6ef563b8467577e70\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+110            </intent-filter>
+111        </receiver>
+112    </application>
+113
+114</manifest>
